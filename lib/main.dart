@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Clone Instagram',
       routes: {
         HomePage.routeName: (context) => const HomePage(),
-      }, //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      },
     );
   }
 }
