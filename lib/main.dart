@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Clone Instagram',
+      theme: ThemeData(),
       routes: {
         HomePage.routeName: (context) => const HomePage(),
       },
